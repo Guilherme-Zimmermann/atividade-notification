@@ -15,6 +15,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "io.github.guilhermezimmermann.notification",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "983e15e3-80de-42dc-ad3b-0930682be3b9"
+      }
     }
   }
 }
